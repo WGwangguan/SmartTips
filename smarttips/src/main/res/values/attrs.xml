@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <declare-styleable name="AlwaysScrollTextView">
+
+        <attr name="left_icon" format="reference" />
+        <attr name="right_icon" format="reference" />
+        <attr name="notice" format="reference|string" />
+        <attr name="noticeColor" format="color" />
+        <attr name="backgroundColor" format="color" />
+
+    </declare-styleable>
+
+</resources>

@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:padding="5dp">
+
+    <ImageView
+        android:id="@+id/image_icon_left"
+        android:layout_width="18dp"
+        android:layout_height="18dp"
+        android:layout_centerVertical="true"
+        android:src="@drawable/ic_notifications_active_black_18dp" />
+
+    <ImageView
+        android:id="@+id/image_icon_right"
+        android:layout_width="18dp"
+        android:layout_height="18dp"
+        android:layout_alignParentRight="true"
+        android:layout_centerVertical="true"
+        android:src="@drawable/ic_close_black_18dp" />
+
+    <com.kenny.smarttips.AlwaysScrollTextView
+        android:id="@+id/text_notice"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_centerVertical="true"
+        android:layout_toLeftOf="@id/image_icon_right"
+        android:layout_toRightOf="@id/image_icon_left"
+        android:paddingLeft="10dp"
+        android:paddingRight="10dp"
+        android:text="gojaugejoagueoajogudoaogeojugoduoagoaqjoujgojangoeugodjaogjoegoangoduogemnoagjoej" />
+
+</RelativeLayout>
